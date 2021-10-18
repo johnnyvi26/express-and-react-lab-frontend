@@ -10,7 +10,7 @@ import Header from './components/Header';
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
-  const URL = "http://localhost:4000/";
+  const URL = "https://express-and-react-labs.herokuapp.com/";
 
 
   return (
