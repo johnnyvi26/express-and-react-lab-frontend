@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url('https://i.pinimg.com/originals/3a/3b/7b/3a3b7b936e3ff87016de28ea865cbbb6.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:rgb(29, 28, 26);
+
 }
 
 .App-logo {
@@ -35,4 +41,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 200px;
+  height: 260px;
+  border-radius: 20px;
+}
+
+.footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  margin-top: 300px;
+  /* height: 2.5rem;
+  padding-bottom: 2.5rem; */
+}
+
+a:visited {
+  color: rgb(255, 248, 240);
+}
+
+.project-img{
+  width: 350px;
+  height: 360px;
+  border-radius: 20px;
+}
+
+.title{
+  font-size: 50px;
+  color: rgb(94, 60, 22);
+}
+
+.resume{
+  width: 500px;
+  height: 800px;
+  border-radius: 0px;
+}
+
+.name{
+  font-size: 30px;
+  color: #282c34;
+}
+
+.bio {
+  margin: 0 auto;
+  height: 50%;
+  width: 70%;
+  color: rgb(181, 214, 243);
+  font-size: 30px;
+}
+
+.profilepic{
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
 }

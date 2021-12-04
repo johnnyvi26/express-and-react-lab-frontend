@@ -12,10 +12,10 @@ function Footer(props) {
     };
 
     return (
-        <header>
-            <h1>Additional Info </h1>
+        <header className="footer">
             <nav style={navStyle}>
                 <a href="https://www.linkedin.com/in/johnny-villavicencio-nyc/">My Linkedin</a>
+                <a href="https://github.com/johnnyvi26">My Github</a>
             </nav>
         </header>
     );
